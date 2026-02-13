@@ -122,13 +122,12 @@ const referenceComponents = {
 
 export default config({
   storage:
-    process.env.NODE_ENV === "development"
+    process.env.NODE_ENV !== "production"
       ? { kind: "local" }
-      : {
-          kind: "github",
-          repo: { owner: "JacobCoffee", name: "psf-blog" },
-          branchPrefix: "keystatic/",
-        },
+      : { kind: "cloud" },
+  cloud: {
+    project: "python/psf-blog",
+  },
   collections: {
     authors: collection({
       label: "Authors",
