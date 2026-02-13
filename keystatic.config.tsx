@@ -126,7 +126,7 @@ export default config({
       ? { kind: "local" }
       : { kind: "cloud" },
   cloud: {
-    project: "python/psf-blog",
+    project: "jacobcoffee/psf-blog",
   },
   collections: {
     authors: collection({
