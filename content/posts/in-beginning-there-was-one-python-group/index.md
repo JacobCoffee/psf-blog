@@ -25,7 +25,7 @@ Since 2013 Wirtel has organized the PythonFOSDEM devroom, expanding the room fro
 
 > Python devroom at [@fosdem](https://twitter.com/fosdem), it didn't even started and it's packed already! [pic.twitter.com/MRtzFt24ez](https://t.co/MRtzFt24ez) — utopiah (@utopiah) [January 30, 2016](https://twitter.com/utopiah/status/693362681303187456)
 
-  
+
 
 With the growth of the PythonFOSDEM devroom and the return of AFPyro-BE, led by Ludovic Gasc, Wirtel has been focusing efforts on building the [belgium@python.org](mailto:belgium@python.org) mailing list and registering a Belgian Python website. “Stéphane continues to challenge us to organize bigger and bigger events”, Gasc comments on Wirtel. His continued work promoting Python in Belgium is helping provide the building blocks for a new Python community in Belgium.  
 
@@ -35,7 +35,7 @@ As a member of the PSF marketing work group, Wirtel is an ongoing voice in the d
 
 Inspiring new CPython contributors at EuroPython 2016  
 
-Wirtel spoke at EuroPython this year on the topic of CPython. His talk, titled “[Exploring our Python Interprete](https://ep2016.europython.eu/conference/talks/exploring-our-python-interpreter)r”, outlined the basics of how the Python interpreter works. Of notable importance Wirtel framed his talk for CPython novices, pointing out documentation on where to get started and resources for how to find CPython core mentors. Wirtel also pointed to a CPython patch he recently submitted for the \_\_ltrace\_\_ feature. With his [patch](http://bugs.python.org/issue25571) you can compile Python to easily show the Python bytecode generated, a significant suggestion for beginners to be able to play with in the Python interpreter. Here is an example of his feature in action:  
+Wirtel spoke at EuroPython this year on the topic of CPython. His talk, titled “[Exploring our Python Interpret](https://ep2016.europython.eu/conference/talks/exploring-our-python-interpreter)r”, outlined the basics of how the Python interpreter works. Of notable importance Wirtel framed his talk for CPython novices, pointing out documentation on where to get started and resources for how to find CPython core mentors. Wirtel also pointed to a CPython patch he recently submitted for the \_\_ltrace\_\_ feature. With his [patch](http://bugs.python.org/issue25571) you can compile Python to easily show the Python bytecode generated, a significant suggestion for beginners to be able to play with in the Python interpreter. Here is an example of his feature in action:  
 
 \>>> \_\_ltrace\_\_ = None # To enable tracing
 

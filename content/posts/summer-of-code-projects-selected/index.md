@@ -3,7 +3,7 @@ title: Summer of Code projects selected
 publishDate: '2006-05-25'
 updatedDate: '2006-05-25'
 author: A.M. Kuchling
-description: 'A slate of Python-related projects has now been selected for Google''s Summer of Code initiative. The Python Software Foundation (PSF) was allocated 25 projec...'
+description: 'A slate of Python-related projects has now been selected for Google''s Summer of Code initiative. The Python Software Foundation (PSF) was allocated 25 project...'
 tags: []
 published: true
 legacyUrl: /2006/05/summer-of-code-projects-selected.html

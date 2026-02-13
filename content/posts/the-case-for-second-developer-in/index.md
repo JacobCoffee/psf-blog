@@ -3,7 +3,7 @@ title: The Case for a Second Developer-in-Residence for Python
 publishDate: '2023-02-15'
 updatedDate: '2023-02-15'
 author: Łukasz Langa
-description: 'As the currently serving sole developer in residence, I’m often asked if there will be more people holding the same position in the future. I strongly believ...'
+description: 'As the currently serving sole developer in residence, I’m often asked if there will be more people holding the same position in the future. I strongly believe...'
 tags: []
 published: true
 legacyUrl: /2023/02/the-case-for-second-developer-in.html

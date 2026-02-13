@@ -35,7 +35,7 @@ Building on [Part 1](https://pyfound.blogspot.com/2024/11/psf-grants-program-upd
 | Increase $ amount for PSF Board review: Grant requests over 15K are reviewed by PSF Board | Grant requests over 10K were reviewed by PSF Board | Resolutions reach applicants sooner, reduces load on PSF Board to ensure they are focused on high level efforts | Resolutions have reached applicants sooner, some reduction in load for PSF Board as we are still receiving applications over 15K |
 | Increase process timeframe: 8 week processing time from when all information has been received | 6 week processing time from when all information has been received | Improves community satisfaction and sets realistic expectations, reduces stress on workgroup & Chair | We are just sharing this update so it has yet to be tested- come to our Grants Office Hour session to discuss it with us! |
 | Establish schedule for Grant review process: 10 day review period and 10 day voting period | Did not exist previously | Improve community satisfaction by ensuring requests are moving through the process promptly | This has worked great to keep things moving as the workgroup has a set expectation of how long they have to comment |
-| Establish guideline for workgroup process: no discussion after the vote has begun | Did not exist previously | Improve community satisfaction by ensuring requests are moving hrough the process promptly | While untested, this has set an expectation for the workgroup to comment during the review period |
+| Establish guideline for workgroup process: no discussion after the vote has begun | Did not exist previously | Improve community satisfaction by ensuring requests are moving through the process promptly | While untested, this has set an expectation for the workgroup to comment during the review period |
 | Update voting mechanics: Votes will last for 10 days, a majority is reached, or when all voting members have voted, whichever comes first. For a proposal to be successful, it must have ayes in the majority totalling 30% of the WG | Decisions were made by a majority rule (50%+1), with no time limit | Improve community satisfaction by ensuring votes take place promptly, reduce stress on the workgroup and Chair if members are absent or unable to participate | This has worked wonderfully! The Chair no longer has to track down votes. Paired with the participation guideline, voting periods no longer present a bottleneck |
 | Removed stated set budget: The annual budget is set by the PSF Board and is subject to change | The previously documented budget was $120,000 (regularly exceeded) | Removes an inaccurate description of the Grants Program budget and the need to update this line yearly | A practical update, no observations to note |
 | Update workgroup officer roles: one Chair, one Vice Chair, one Appointed Board Director | One Chair and two Vice Chairs | Correct an unusual and discouraged practice of having two vice chairs and ensures PSF Board participation | A practical update, no observations to note |
@@ -50,7 +50,7 @@ Still on our Grants Program refresh to-do list is:
 
 -   Mapping Board-mandated priorities for the Grants Program to policy
 -   Charter adjustments as needed, based on the priority mapping  
-    
+
 -   Main documentation page re-write
 -   Budget template update
 -   Application form overhaul

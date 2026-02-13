@@ -12,11 +12,11 @@ legacyUrl: /2022/05/the-2022-python-language-summit.html
 
 These were a series of short talks, each lasting around five minutes.
 
-  
+
 
 [Read the rest of the 2022 Python Language Summit coverage here.](https://pyfound.blogspot.com/2022/05/the-2022-python-language-summit_01678898482.html)
 
-  
+
 
 * * *
 
@@ -83,7 +83,7 @@ Lastly, Meyer noted, “If you’re not careful, your code might implicitly star
 
 Python users who have opinions either for or against the proposal are encouraged to join [the discussion on discuss.python.org](https://discuss.python.org/t/pep-690-lazy-imports/).
 
-  
+
 
 * * *
 
@@ -95,7 +95,7 @@ Historically, if somebody wanted to make a significant change to CPython, they w
 
 Thomas Wouters, Core Developer and Steering Council member, said that the Steering Council was planning on loosening the requirements, stated in several places, that emails had to be sent to python-dev in order to make certain changes. Instead, they were hoping that [discuss.python.org](http://discuss.python.org) would become the authoritative discussion forum in the years to come.
 
-  
+
 
 * * *
 
@@ -105,7 +105,7 @@ Kevin Modzelewski, core developer of the [Pyston](https://www.pyston.org) projec
 
 Modzelewski argued that CPython needed better benchmarks; the existing benchmarks on [pyperformance](https://github.com/python/pyperformance) were “not great”. Modzelewski also warned that his “unsubstantiated hunch” was that the [Faster CPython](https://pyfound.blogspot.com/2022/05/the-2022-python-language-summit_2.html?m=1) team had already accomplished “greater than one-half” of the optimisations that could be achieved within the current constraints. Modzelewski encouraged the attendees to consider future optimisations that might cause backwards-incompatible behaviour changes.
 
-  
+
 
 * * *
 
@@ -113,7 +113,7 @@ Modzelewski argued that CPython needed better benchmarks; the existing benchmark
 
 This was another short announcement from Thomas Wouters on behalf of the Steering Council. After sponsorship from Google providing funding for [the first ever CPython Developer-In-Residence](https://pyfound.blogspot.com/2021/04/the-psf-is-hiring-developer-in.html) (Łukasz Langa), Meta has provided sponsorship for a second year. The Steering Council also now has sufficient funds to hire a second Developer-In-Residence – and attendees were notified that they were open to the idea of hiring somebody who was not currently a core developer.
 
-  
+
 
 * * *
 
@@ -136,7 +136,7 @@ In theory, according to Hastings, this syntax could avoid [issues around runtime
 
 The idea was in its early stages, and reaction to the proposal was mixed. The next day, at the Typing Summit, there was more enthusiasm voiced for a plan laid out by Carl Meyer for a tweaked version of Hastings’s earlier attempt at solving this problem: [PEP 649](https://peps.python.org/pep-0649/).
 
-  
+
 
 * * *
 
@@ -156,7 +156,7 @@ class Farmer(BaseModel):
 
 ```
 
-Both the user and the maintainer are happy, until the maintainer releases Version 2 of the library. Version 2 adds a method, `.fields()` to BaseModel, which will print out all the field names of a subclass. But this creates a name clash with your user’s existing code, wich has `fields` as the name of an instance attribute rather than a method.
+Both the user and the maintainer are happy, until the maintainer releases Version 2 of the library. Version 2 adds a method, `.fields()` to BaseModel, which will print out all the field names of a subclass. But this creates a name clash with your user’s existing code, which has `fields` as the name of an instance attribute rather than a method.
 
 Colvin briefly sketched out an idea for a new way of looking up names that would make it unambiguous whether the name being accessed was a method or attribute.
 

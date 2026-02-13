@@ -12,7 +12,7 @@ published: true
 legacyUrl: /2010/07/infrastructure-committee.html
 ---
 
-The PSF Board has approved the appointment of Sean Reifschneider as chair of the Infrastructure Committee for 2010-2011. Prior to this, Sean has served as a committee member and handled system adminstration tasks for the python.org servers. He works for tummy.com, a Linux hosting and consulting company, and has years of experience with system administration and hosting.
+The PSF Board has approved the appointment of Sean Reifschneider as chair of the Infrastructure Committee for 2010-2011. Prior to this, Sean has served as a committee member and handled system administration tasks for the python.org servers. He works for tummy.com, a Linux hosting and consulting company, and has years of experience with system administration and hosting.
 
 #### The Infrastructure Committee
 

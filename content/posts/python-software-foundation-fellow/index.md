@@ -16,7 +16,7 @@ Stefan Behnel**
 [Blog](http://blog.behnel.de/), [Github](https://github.com/scoder/)  
 **Andrew Godwin**  
 [Website](http://www.aeracode.org/), [Twitter](http://twitter.com/andrewgodwin)  
-**David Markey**  
+**David Marquee**  
 [Twitter](https://twitter.com/DavidjMarkey)  
 **Eduardo Mendes**  
 [Github](http://github.com/dunossauro), [Twitter](http://twitter.com/dunossauro), [LinkedIn](http://linkedin.com/dunossauro)  
@@ -25,5 +25,5 @@ Stefan Behnel**
 
 -   Q4: October to the end of December (01/10 - 31/12) Cut-off for quarter four will be November 20. New fellows will be announced before December 31.
 
-  
+
 We are looking for a few more voting members to join the Work Group to help review nominations. If you are a PSF Fellow and would like to join, please write to psf-fellow at python.org.

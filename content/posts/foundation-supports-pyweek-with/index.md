@@ -9,7 +9,7 @@ published: true
 legacyUrl: /2006/05/foundation-supports-pyweek-with.html
 ---
 
-May 1, 2006. PyWeek is a game programming challenge in which participants must write a game in one week using Python. The second PyWeek challenge placed heavy stress on a donated server infrastructure, highlighting the need for more professional hosting facilties.
+May 1, 2006. PyWeek is a game programming challenge in which participants must write a game in one week using Python. The second PyWeek challenge placed heavy stress on a donated server infrastructure, highlighting the need for more professional hosting facilities.
 
 To ensure that PyWeek can continue to meet this growing demand the Python Software Foundation today announced that it will support PyWeek by funding the hosting facilities that are required to keep the increasingly popular event as responsive as possible to participants.
 

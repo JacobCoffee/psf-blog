@@ -13,7 +13,7 @@ legacyUrl: /2023/11/support-python-q4-2023.html
 
 ## [![](./image-1.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5EX0yXqOYNuAGcsuRsJX2wp9TzgU6azoLrCDh9utYsik4eyzjknOM_iUB32yQpkdfpIQlOs5USdc5jxI7J4t_X5Ph55VJSTlWJfqi-4U4NDIwL1lff1s-19VLv-ida4AWNw9-eMz14fdejA74vJzpbLginaeR34p7ydwgVd9LEfBcOmxOxg/s1139/fundraiser_membership_drive_small.png)
 
-###   
+###  
 
 ## There are two ways to join in the drive this year:
 
@@ -33,7 +33,7 @@ Or, heck, why not do both? 🥳
 
 -   Make our community more diverse and robust every year
 
-  
+
 
 ## Let’s take a look back on 2023:
 
@@ -43,7 +43,7 @@ Welcome, Marisa and Marie!** - In 2023 we were able to add two new full time sta
 **  
 CPython Developer in Residence** - Our CPython Developer in Residence, Łukasz Langa, continued to provide trusted support and advancement of the Python language, including oversight for the releases of Python 3.8 and 3.9, adoption of Sigstore, and stewardship of PEP 703 (to name a few of many!). Łukasz also engaged with the community by orchestrating the [Python Language Summit](https://us.pycon.org/2023/events/language-summit/) and participating in events such as [PyCon US 2023](https://us.pycon.org/2023/), [EuroPython](https://ep2023.europython.eu/), and [PyCon Colombia](https://2023.pycon.co/). This critical role would not be possible without funding from [Meta](https://about.facebook.com/meta/). **Authorized as CVE Numbering Authority (CNA)** - Being authorized as a CNA is one milestone in the Python Software Foundation's strategy to improve the vulnerability response processes of critical projects in the Python ecosystem. The [Python Software Foundation CNA scope](https://www.cve.org/PartnerInformation/ListofPartners/partner/PSF) covers [Python](https://github.com/python/cpython) and [pip](https://github.com/pypa/pip), two projects which are fundamental to the rest of Python ecosystem.  
 **  
-Five new Fiscal Sponsorees** - Welcome to [Bandit](https://github.com/PyCQA/bandit), [BaPya](https://www.bapya.org/), [Twisted](https://twisted.org/), [PyOhio](https://www.pyohio.org/2023/), and [North Bay Python](https://2023.northbaypython.org/) as new Fiscal Sponsorees of the PSF! The PSF provides 501(c)(3) tax-exempt status to fiscal sponsorees and provides back office support so they can focus on their missions.  
+Five new Fiscal Sponsors** - Welcome to [Bandit](https://github.com/PyCQA/bandit), [BaPya](https://www.bapya.org/), [Twisted](https://twisted.org/), [PyOhio](https://www.pyohio.org/2023/), and [North Bay Python](https://2023.northbaypython.org/) as new Fiscal Sponsors of the PSF! The PSF provides 501(c)(3) tax-exempt status to fiscal sponsors and provides back office support so they can focus on their missions.  
 
 ## Our Thanks:
 

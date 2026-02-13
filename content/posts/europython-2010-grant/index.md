@@ -3,7 +3,7 @@ title: EuroPython 2010 Grant
 publishDate: '2010-07-15'
 updatedDate: '2010-07-15'
 author: Doug Hellmann
-description: 'The PSF Board has offered a $2,000 grant to the organizers of EuroPython 2010 to fund sprints and the travel expenses of selected sepakers who could not othe...'
+description: 'The PSF Board has offered a $2,000 grant to the organizers of EuroPython 2010 to fund sprints and the travel expenses of selected sepakers who could not other...'
 tags:
   - europython
   - uk

@@ -35,7 +35,7 @@ Check out [Terry's blog](http://www.swordstyle.com/blog2/).
 
 ##### Stephen Thorne
 
-Co-maintaner of the #python channel on Freenode, Stephen has been one of the most active Python advocates in Australia. He has been involved with the local Open Source community, directed OS Developers' Conference and assisted with the [Linux.Conf.Au](http://www.linux.org.au/LCA).
+Co-maintainer of the #python channel on Freenode, Stephen has been one of the most active Python advocates in Australia. He has been involved with the local Open Source community, directed OS Developers' Conference and assisted with the [Linux.Conf.Au](http://www.linux.org.au/LCA).
 
 He also organizes meetings of the Brisbane Python User Group, [BrisPy](https://sites.google.com/site/brisbanepy/), held at the NetboxBlue for the locals that want to attend. Get a glimpse into Stephen's activities via [his blog](http://shiny.thorne.id.au/).
 

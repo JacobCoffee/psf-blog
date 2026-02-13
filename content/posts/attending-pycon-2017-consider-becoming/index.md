@@ -3,7 +3,7 @@ title: 'Attending PyCon 2017? Consider Becoming a Sponsor!'
 publishDate: '2017-05-04'
 updatedDate: '2017-05-04'
 author: Christy Heaton
-description: 'As PyCon approaches, we would like to invite attendees and members of our community to join the Python Software Foundation as a sponsor. Your generous suppor...'
+description: 'As PyCon approaches, we would like to invite attendees and members of our community to join the Python Software Foundation as a sponsor. Your generous support...'
 tags: []
 published: true
 legacyUrl: /2017/05/attending-pycon-2017-consider-becoming.html

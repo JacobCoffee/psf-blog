@@ -51,7 +51,7 @@ The members of the [Python Software Foundation](http://www.python.org/psf/) (PSF
 
 **James Tauber** has been working with Python for 12 years and open source for 17 years. He is lead developer of [Pinax](http://pinaxproject.com/) as well as a Django core developer. He was a mentor for the PSF's participants in the [Google Summer of Code](http://code.google.com/soc/) program from 2005-2007, and an administrator for the project from 2007-2008. He is a frequent conference speaker and currently sits on the PSF Trademarks Committee. James is CEO of Eldarion, a web startup that uses Django and Pinax and helps others do the same.
 
-**Martin v. Löwis** is a Python core developer. Over the last year, he has been focusing on infrastructure issues such as hardware upgrades, [PyPI](http://pypi.python.org/pypi), the [bug tracker](http://bugs.python.org/), and acting as a liason to the PSF's hosting provider XS4ALL.
+**Martin v. Löwis** is a Python core developer. Over the last year, he has been focusing on infrastructure issues such as hardware upgrades, [PyPI](http://pypi.python.org/pypi), the [bug tracker](http://bugs.python.org/), and acting as a liaison to the PSF's hosting provider XS4ALL.
 
 **Gloria Willadsen** has been working with Python for over ten years. She has written online and in articles for [The Python Papers](http://pythonpapers.org/) and [Python Magazine](http://www.pythonmagazine.com/). She also had a regular column called "I Love Python" for [DevChix](http://www.devchix.com/). Gloria teaches tutorials at conferences around the world and has started two apprenticeship groups to teach Python tools and techniques to developers.
 

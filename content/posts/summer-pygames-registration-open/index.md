@@ -3,7 +3,7 @@ title: Summer pyGames Registration Open
 publishDate: '2011-05-18'
 updatedDate: '2011-05-18'
 author: Doug Hellmann
-description: The 2011 Summer pyGames event is now accepting registrations for student teams and volunteer coordinators. Registration will remain open until the competitio...
+description: The 2011 Summer pyGames event is now accepting registrations for student teams and volunteer coordinators. Registration will remain open until the competitor...
 tags:
   - grants
   - edu-sig

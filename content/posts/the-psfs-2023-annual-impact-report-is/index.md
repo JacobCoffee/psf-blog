@@ -18,7 +18,7 @@ legacyUrl: /2024/05/the-psfs-2023-annual-impact-report-is.html
 -   Updates on the achievements and activities of a couple of our Developers-in-Residence, Łukasz Langa and Seth Larson—and announcing more members of the DiR team!
 -   An overview of what our PyPI Safety & Security Engineer, Mike Fiedler, has accomplished- as well as some eye-watering PyPI stats!
 -   A celebration and summary of PyCon US 2023, the event’s 20th anniversary, and the theme for 2023’s report cover
--   A highlight of our Fiscal Sponsorees (we brought on 7 new organizations this year!)
+-   A highlight of our Fiscal Sponsors (we brought on 7 new organizations this year!)
 -   [Sponsors](https://www.python.org/psf/sponsors/) who generously supported our work and the Python ecosystem
 -   An overview of PSF Financials, including a consolidated financial statement and grants data
 

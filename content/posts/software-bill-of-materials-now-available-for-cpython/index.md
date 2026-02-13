@@ -3,7 +3,7 @@ title: Software Bill-of-Materials documents are now available for CPython
 publishDate: '2024-02-08'
 updatedDate: '2024-02-08'
 author: Seth Michael Larson
-description: 'Our Security Developer-in-Residence, Seth Larson, has been working to improve the management of vulnerabilities for Python users. Seth has championed progres...'
+description: 'Our Security Developer-in-Residence, Seth Larson, has been working to improve the management of vulnerabilities for Python users. Seth has championed progress...'
 tags: []
 published: true
 legacyUrl: /2024/02/software-bill-of-materials-now-available-for-cpython.html

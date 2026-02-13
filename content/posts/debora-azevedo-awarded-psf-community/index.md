@@ -15,12 +15,12 @@ legacyUrl: /2020/03/debora-azevedo-awarded-psf-community.html
 
 ### Debora's Introduction to Programming - The Origin Story
 
-  
-Débora's first introduction to programming was in 2008, as part of an IT technical course. But, it was an upleasant experience, she recalls. Being both young and without access to a computer, her first introduction to programming made the concept unclear and hard to grasp. Years later, Débora enrolled into a Computer Networks course - so she would not have to code. Unknown to her, the course required her to take three programming classes, all taught in Python. This was a turning poing in her coding journey - as she realised how empowering being able to code could be. One of those moments came when she had to develop a web app using Django for the school library. From then on, Débora was hooked.
+
+Débora's first introduction to programming was in 2008, as part of an IT technical course. But, it was an upleasant experience, she recalls. Being both young and without access to a computer, her first introduction to programming made the concept unclear and hard to grasp. Years later, Débora enrolled into a Computer Networks course - so she would not have to code. Unknown to her, the course required her to take three programming classes, all taught in Python. This was a turning point in her coding journey - as she realised how empowering being able to code could be. One of those moments came when she had to develop a web app using Django for the school library. From then on, Débora was hooked.
 
 ### Involvement in the Developer Community - Co-founding PyLadies Brazil
 
-Suprised at the low turnout of female attendees and sometimes, the complete absence of women at local open source community meetups hosted by [Potilivre](https://www.potilivre.org/), Débora, [Gabriela Calvalcante](https://twitter.com/_gabiCavalcante), [Clara Nobre](https://twitter.com/_claranobre) and [Katyanna Moura](https://twitter.com/amelie_kn), started the [PyLadies Brazil](https://pyladiesnatal.github.io/). They were spurred on by a feeling of belonging, having their technical skills validated, their voices heard and a general desire of building a community of women with the same interest. Débora took on more responsibility and became a co-founder for the PyLadies Brazil. On the topic of Women in Tech, Débora believes that one of the most important things Women in Tech can do for other women is for them to step up as role models.
+Surprised at the low turnout of female attendees and sometimes, the complete absence of women at local open source community meetups hosted by [Potilivre](https://www.potilivre.org/), Débora, [Gabriela Calvalcante](https://twitter.com/_gabiCavalcante), [Clara Nobre](https://twitter.com/_claranobre) and [Katyanna Moura](https://twitter.com/amelie_kn), started the [PyLadies Brazil](https://pyladiesnatal.github.io/). They were spurred on by a feeling of belonging, having their technical skills validated, their voices heard and a general desire of building a community of women with the same interest. Débora took on more responsibility and became a co-founder for the PyLadies Brazil. On the topic of Women in Tech, Débora believes that one of the most important things Women in Tech can do for other women is for them to step up as role models.
 
 > "*Being able to tend to other ladies, in an industry, where some women consider themselves unfit, is revolutionary*" says Débora.
 
@@ -30,26 +30,26 @@ Suprised at the low turnout of female attendees and sometimes, the complete abse
 
 On Débora, being a teacher and a mentor? [Clara Nobre](https://twitter.com/_claranobre), says Débora drives and inspires ladies in her local community to embrace programming. And to pursue a career in tech. These ladies, whom Débora inspires, had before now, been largely undecided in what career they wanted to pursue.
 
-> "*Débora is one of the main references in the communtiy to other women. She is also a woman with a background in another area of expertise, which is English Letters. Débora is a teacher! So she can reach so many girls who still don't know what career they intend to pursue, as well as women who are in the area of Information Technology but haven't yet developed the maturity to program*" - [Clara Nobre](https://twitter.com/_claranobre)
+> "*Débora is one of the main references in the community to other women. She is also a woman with a background in another area of expertise, which is English Letters. Débora is a teacher! So she can reach so many girls who still don't know what career they intend to pursue, as well as women who are in the area of Information Technology but haven't yet developed the maturity to program*" - [Clara Nobre](https://twitter.com/_claranobre)
 
 ### Crowdfunding Campaigns - Sponsoring Women to Attend Python Brazil Conference
 
-  
+
 In 2016, Débora and the team launched their first crowdfunding campaign to help raise funds to take some women of the PyLadies Brazil to Python Brazil, the largest Python conference in Latin America.
 
-  
+
 
 They raised R$5,975 (USD1,190), which was used to sponsor women to the 2016 Python Brazil conference.
 
-  
+
 
 In 2017, Débora and the team, again raised R$15,842 (USD3,160), sponsoring fourteen women who had requested for financial aid to participate in the 2017 edition of the Python Brazil conference. This resulted in a peak of forty two percent participation and activities led by PyLadies at the conference.
 
-  
+
 
 > "*In 2018, we had a total of 26 talks and tutorials, which were given by women. Some of these activities were only possible, thanks to our crowdfunding campaigns, which raised R$11,770 (USD2,347), making participation in a conference like Python Brazil possible for nine women*" - Débora
 
-  
+
 
 ### Débora Azevedo - Inspiring Women in Tech in Brazil to believe in themselves
 

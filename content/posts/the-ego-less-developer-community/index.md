@@ -3,7 +3,7 @@ title: Community Service Award Recipient Ian Cordasco
 publishDate: '2017-04-21'
 updatedDate: '2017-04-21'
 author: Christy Heaton
-description: The Python Software Foundation depends on its board of directors in order to function. Board members are elected every year by PSF voting members in a proces...
+description: The Python Software Foundation depends on its board of directors in order to function. Board members are elected every year by PSF voting members in a process...
 tags: []
 published: true
 legacyUrl: /2017/04/the-ego-less-developer-community.html
@@ -31,6 +31,6 @@ The Python community as a whole is very lucky to count Cordasco as its member, a
 
 <table align="center" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="./image-1.png" alt=""></td></tr><tr><td>CSA 2017 Q1 Winner Ian Cordasco</td></tr></tbody></table>
 
-  
+
 
 In his free time, you can find Cordasco blogging on [his website](http://www.coglib.com/~icordasc/), riding his bike, or reading books.

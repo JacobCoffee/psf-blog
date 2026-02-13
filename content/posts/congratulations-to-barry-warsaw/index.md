@@ -1,5 +1,5 @@
 ---
-title: 'Congratulations to Barry Warsaw, Community Service Award Receipient'
+title: 'Congratulations to Barry Warsaw, Community Service Award Recipient'
 publishDate: '2013-11-19'
 updatedDate: '2013-11-19'
 author: Brian Curtin

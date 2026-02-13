@@ -3,7 +3,7 @@ title: 'The Python Language Summit 2024: Free-threading ecosystems'
 publishDate: '2024-06-14'
 updatedDate: '2024-06-14'
 author: Seth Michael Larson
-description: 'Following years of excitement around the removal of the Global Interpreter Lock (GIL), Python without the GIL is coming soon. Python 3.13 pre-releases alread...'
+description: 'Following years of excitement around the removal of the Global Interpreter Lock (GIL), Python without the GIL is coming soon. Python 3.13 pre-releases already...'
 tags: []
 published: true
 legacyUrl: /2024/06/python-language-summit-2024-free-threading-ecosystems.html
@@ -28,7 +28,7 @@ This year at the Language Summit, Daniele Parmeggiani gave a talk about ways Pyt
 Daniele started his talk, like many Python users, with cautious enthusiasm about the prospect of free-threading in Python:  
 
 > "Given the [acceptance notes](https://discuss.python.org/t/pep-703-making-the-global-interpreter-lock-optional-in-cpython-acceptance/37075) to PEP 703, one should argue for caution in discussing the prospects of new multi-threading ecosystems after the release of Python 3.13 — with a hopeful spirit I will disregard this caution here."
-> 
+>
 > \-- Daniele Parmeggiani
 
 Daniele detailed a [feature request](https://github.com/python/cpython/issues/113920) he had opened to create a public function for the private C API function "\_Py\_TRY\_INCREF()". Daniele wanted to use this function to increment an object's reference count safely in a truly multi-threaded Python where a reference count might be decremented concurrently to an increment.  
@@ -73,7 +73,7 @@ Daniele was already developing an [atomic dictionary class](https://github.com/d
 
 <table align="center" cellpadding="0" cellspacing="0"><tbody><tr><td><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivKqZ5arkv_l8RhLPqmFmnl_v797VnOU0HBAilJQFK-VUktBrd5VjNg9p0gfqX5UjS9PTIjLmsN_wUx6Tbbjqbo_baffEOyqwcPazs224myHNsjyTERlbtZ2omHUOxMqAUSj7crhDzDa3CsTDtrRdCnepHwsqpEiCMnMXTQBd7AKAVjQd_LQ/s1199/Screenshot%20from%202024-06-07%2010-27-54.png"><img src="./image-1.png" alt=""></a></td></tr><tr><td>Performance comparison of dict with and without the GIL and Daniele's AtomicDict<br></td></tr></tbody></table>
 
-  
+
 
 Daniele observed that the free-threading changes actually *decreased* the performance for write-heavy workloads on builtin types like dictionaries because "Python programs will now actually be subject to memory contention". When multiple threads attempt to mutate a list or dictionary, "it will be as if the GIL is still there, \[the threads\] will all be contending for one lock", offering that "new concurrent data structures would alleviate this performance issue".  
 

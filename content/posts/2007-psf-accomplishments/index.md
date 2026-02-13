@@ -15,7 +15,7 @@ The following summary of the PSF's accomplishments since the last member meeting
 
 PSF record-keeping was rather scattered for a long time. The current Secretary, D. Goodger, set out to improve the state of affairs.
 
-J. Hylton, Secretary from 2002-2006, still had some records in his possesion. They've been sent to the current Secretary, and he has begun scanning them and placing them in the Foundation's CVS repository.
+J. Hylton, Secretary from 2002-2006, still had some records in his possession. They've been sent to the current Secretary, and he has begun scanning them and placing them in the Foundation's CVS repository.
 
 D. Goodger also wrote a history of PSF officers & directors: [http://www.python.org/psf/records/board/history/](http://www.python.org/psf/records/board/history/)
 
@@ -24,19 +24,19 @@ D. Goodger also retrieved minutes from the early members' meetings, including th
 ### Funding actions
 
 -   $500 one-time grant to assist in funding the Python en Santa Fe (Argentina) meeting Jun 9th, 2007. ([http://www.python-santafe.com.ar/](http://www.python-santafe.com.ar/)) According to Facundo Batista:
-    
+
     > It was very successful, around +300 people assisted, and there were a lot of interesting talks (two introductory talks, Turbogears, PyWeek, Zope 3, security, creating 3D games, Plone, automatic security testing, concurrency, and programming the OLPC).
-    
+
 -   US$1000 to buy swag items for Google Highly Open Participation participants.
-    
+
 -   1500 Euros for a gold sponsorship of PyConUno (Italy) 2007.
-    
+
 -   US $2500 to The PyCon UK Society for its use in running PyCon UK 2007.
-    
+
 -   US$5000 to EuroPython 2007. About 225 people attended the conference.
-    
+
 -   Funded Jeff Rush as Advocacy Coordinator for 13 months ($4000/month): [http://wiki.python.org/moin/AdvocacyAccomplishments](http://wiki.python.org/moin/AdvocacyAccomplishments) lists what was accomplished.
-    
+
 
 ### Policy actions
 

@@ -3,7 +3,7 @@ title: 'PyCaribbean, Come for the Language, Stay for the Culture'
 publishDate: '2018-05-24'
 updatedDate: '2018-05-24'
 author: Jackie Kazil
-description: 'PyCaribbean is more than Python, it is people, culture, and spending time together. Lead organizer Leonardo Jimenez wants attendees to feel like they are hom...'
+description: 'PyCaribbean is more than Python, it is people, culture, and spending time together. Lead organizer Leonardo Jimenez wants attendees to feel like they are home...'
 tags:
   - Santo Domingo
   - conference
@@ -20,7 +20,7 @@ PyCaribbean is more than Python, it is people, culture, and spending time togeth
 
 > Kicking off [@PyCaribbean](https://twitter.com/PyCaribbean?ref_src=twsrc%5Etfw)!!!! [pic.twitter.com/6TCreSGCUv](https://t.co/6TCreSGCUv) — Jackie Kazil (@JackieKazil) [February 17, 2018](https://twitter.com/JackieKazil/status/964852112462053376?ref_src=twsrc%5Etfw)
 
-  
+
 Welcome to PyCaribbean 2018! Hosting some 280 Pythonistas from Puerto Rico, Colombia, Venezuela, Cuba, Bermuda, all across the Dominican Republic, and more the conference boasted 50 more attendees than 2017 when it was held in San Juan, Puerto Rico. PyCaribbean is one of the earliest Python conferences started in Latin America and has since iinspired other Latin American countries to host their own Python conferences. “The community is getting bigger and stronger \[over\] time,” said Jimenez “\[Community members\] show more interest to learn new things, get more practice and experience.” The PyCaribbean organizers scheduled a wide ariety of talks that were aimed at all levels in both English and Spanish. One of this year’s speakers, Ordanis Sanchez, gave a talk on getting started in Python. As noted by attendee Rebecca Conley, this was Ordains’ first conference talk in English!
 
 > Just go out, find an issue, and make a PR! [@PyCaribbean](https://twitter.com/PyCaribbean?ref_src=twsrc%5Etfw) [@OrdaniSanchez](https://twitter.com/OrdaniSanchez?ref_src=twsrc%5Etfw) did a great job delivering an important message in his first talk in English! [pic.twitter.com/ShMbFb2Pbq](https://t.co/ShMbFb2Pbq) — Rebecca Conley (@rlconley) [February 18, 2018](https://twitter.com/rlconley/status/965335159674417154?ref_src=twsrc%5Etfw)

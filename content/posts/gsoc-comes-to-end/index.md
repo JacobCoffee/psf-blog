@@ -40,7 +40,7 @@ SoC2010) went all out and posted all their GSoC information [online](http://code
 
 Julian Habrock, the student for the [PyGame](http://pygamed
 raw.wordpress.com/) project, [posted his work as he did it on a blog](http://pygame
-draw.wordpress.com/). He worked on a new draw module for pygame and pygame2 with mentor, Marcus Von Appen. Julian thought the project was fun and he learned how to organize bigger projects and encourages other studentswho have the time and motivation to join GSoC next year.
+draw.wordpress.com/). He worked on a new draw module for pygame and pygame2 with mentor, Marcus Von Append. Julian thought the project was fun and he learned how to organize bigger projects and encourages other studentswho have the time and motivation to join GSoC next year.
 
 #### Tell Us About Your Project
 

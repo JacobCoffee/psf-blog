@@ -13,33 +13,33 @@ legacyUrl: /2020/07/abigail-dogbe-awarded-psf-community.html
 
 [Abigail Dogbe](https://twitter.com/MesrenyameDogbe), lead organizer [PyLadies Ghana](https://ghana.pyladies.com/) and co-organizer of [Pycon Africa](https://africa.pycon.org/) 2019, has been awarded the Python Software Foundation Q1 2020 Community Service Award.
 
-  
+
 
 Abigail holds a Bachelor's Degree in Computer Science and Engineering from the prestigious University of Mines and Technology, Ghana.
 
-  
+
 
 > **RESOLVED, that the Python Software Foundation award the 2020 Q1 Community Service Award to Abigail Dogbe in recognition of her efforts with leading the PyLadies Ghana community, with helping organize PyCon Africa and volunteering for PyLadies global and PyCon US.**
 
-  
+
 
 ### Origin Story - Abigail's Introduction to Programming
 
-  
+
 Abigail was introduced to programming at the University of Mines and Technology, Ghana. taking classes in Java, C++ and Visual Basic under the department of Computer Science and Engineering. In 2017, Abigail attended a Django Girls workshop as a mentee. The goal of the workshop was to teach women how to build web apps using Django and Python.  
 It was that Django Girls workshop that introduced Abigail to the [Python](https://www.python.org/) programming language. She was hooked to the simplicity of using Python to build web apps, compared to the other languages she had learnt in school.
 
-###   
+###  
 
 ### Community Involvement - Teaching Other Women Python
 
-Abigail volunteered to serve as a coach at the next [Django Girl workshop](https://djangogirls.org/ho1/), held in September of 2017. And this heralded the setting up of the [Python Ghana community](https://www.pythonghana.org/), joining together the Pythonistas she met. Together with her team, they travelled across Ghana, teaching women how to code. She was at the time the only woman on the team. This sparked her interests in getting more women as coaches for the Django girls. Working with an amazing and supportive team, Abigail set up six different PyLadies chapters, each chapter working independently. They organize meetups and workshops focused on Python and other professioanl skills like how to speak at conferences. The Python Ghana community evolved beyond workshops and meetups, to sharing of ideas and looking out for each other. And that's what community is all about! Abigail has also played pivotal roles in helping kickstart PyLadies communities in [Ethiopa](https://twitter.com/PyladiesAddis), Liberia, and Zambia. In her words -
+Abigail volunteered to serve as a coach at the next [Django Girl workshop](https://djangogirls.org/ho1/), held in September of 2017. And this heralded the setting up of the [Python Ghana community](https://www.pythonghana.org/), joining together the Pythonistas she met. Together with her team, they travelled across Ghana, teaching women how to code. She was at the time the only woman on the team. This sparked her interests in getting more women as coaches for the Django girls. Working with an amazing and supportive team, Abigail set up six different PyLadies chapters, each chapter working independently. They organize meetups and workshops focused on Python and other professionals skills like how to speak at conferences. The Python Ghana community evolved beyond workshops and meetups, to sharing of ideas and looking out for each other. And that's what community is all about! Abigail has also played pivotal roles in helping kickstart PyLadies communities in [Ethiopa](https://twitter.com/PyladiesAddis), Liberia, and Zambia. In her words -
 
 > I personnally look forward to helping more Pythonistas kickstart their Python communities.
 
 ### Impact Stories
 
-Abigail's active participation in the [Python Ghana Community](https://www.pythonghana.org/home) has helped move the goals and vision of the community forward, says [Crystabell Atutonu](https://twitter.com/CryssyBella), from PyLadies Tema.
+Abigail's active participation in the [Python Ghana Community](https://www.pythonghana.org/home) has helped move the goals and vision of the community forward, says [Crystabell Atutonu](https://twitter.com/CryssyBella), from PyLadies Team.
 
 > Her vibrant activities in the Python software community in Ghana has helped in the smooth sailing of activities especially during the conferences held in Ghana. Her organizational skills is top notch bringing together everyone in the community to support activities.
 
@@ -51,7 +51,7 @@ Abigail's active participation in the [Python Ghana Community](https://www.pytho
 
 ### Road to 500 PyLadies in Ghana
 
-  
+
 [Aseda Addai-Deseh](https://twitter.com/asedaad?lang=en) went on to speak about how Abigail's dedication to the community has led to the involvement of over 500 women in the PyLadies Ghana community within 2 years.  
 
 > Her innovative initiatives at PyLadies Ghana such as PyLadies Night (a WhatsApp group chat with a tech expert on a subject), Monday motivation (Monday motivational messages for the week), PyScrumble Friday (a fun Python puzzle every Friday), PyLadies #WCW (acknowledging outstanding women in the PyLadies Ghana community every Wednesday), Pythonic Tips and Tricks (short Python blogs) and PyLadies Field trips (trips to tech companies in Ghana to learn more about their work).
@@ -64,7 +64,7 @@ Abigail's active participation in the [Python Ghana Community](https://www.pytho
 
 ### Abigail Dogbe - Inspiring and Helping Women in Tech in Ghana to Grow
 
-  
+
 We asked Abigail what drives/inspires her into doing all that she does for the Python community. She says -  
 
 > I particularly have a keen interest in tech community building and I find joy in helping others grow in their career.

@@ -22,7 +22,7 @@ Some highlights of what the PSF has been able to do with our community in the la
 -   We celebrated Python’s 30th and the PSF’s 20th Anniversary!
 -   Over 2500 Pythonistas came together to make our virtual [PyCon US 2021](https://us.pycon.org/2021/highlights/) a huge success.
 -   We sent grants to 129 groups in 41 countries (on every continent except Antarctica!) to hold virtual events and connect.
--   We supported 13 Python community groups and projects as fiscal sponsorees.
+-   We supported 13 Python community groups and projects as fiscal sponsors.
 -   We hosted PyPI.org for millions of users.
 -   .We brought on Shamika Mohanan as Packaging Project Manager, to work on [the future of PyPI](https://pyfound.blogspot.com/2021/12/pypi-user-feedback-summary.html).
 -   [Łukasz Langa](https://lukasz.langa.pl/a072a74b-19d7-41ff-a294-e6b1319fdb6e/) became the PSF’s inaugural Developer in Residence to establish a full-time core developer role.
@@ -33,7 +33,7 @@ Like 𝛑, our appreciation for the Python community and your support can only b
 
 We are wishing you all a very happy Pi Day!
 
-  
+
 ΠS: Don’t forget to [register for PyCon US](https://us.pycon.org/2022/attend/information/)! April 27-May 3rd, 2022, in Salt Lake City, Utah and online!
 
 ΠΠS: Yes, we will also celebrate the alternate date system Pi Day, July 22nd :)

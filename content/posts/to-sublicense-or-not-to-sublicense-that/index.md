@@ -3,7 +3,7 @@ title: 'To sublicense or not to sublicense? That is the election.'
 publishDate: '2015-03-27'
 updatedDate: '2015-03-27'
 author: Unknown
-description: 'Earlier this month, the PSF opened an election on two issues: the first was a straightforward vote on the adoption of new Sponsor Members; the second was mor...'
+description: 'Earlier this month, the PSF opened an election on two issues: the first was a straightforward vote on the adoption of new Sponsor Members; the second was more...'
 tags: []
 published: true
 legacyUrl: /2015/03/to-sublicense-or-not-to-sublicense-that.html

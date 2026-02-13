@@ -3,7 +3,7 @@ title: We are hiring contract developers to build new features in PyPI
 publishDate: '2022-02-16'
 updatedDate: '2022-02-16'
 author: smm
-description: 'The Python Software Foundation has funding available for designing, developing and deploying organization accounts in PyPI.    PyPI is the official repositor...'
+description: 'The Python Software Foundation has funding available for designing, developing and deploying organization accounts in PyPI.    PyPI is the official repository...'
 tags: []
 published: true
 legacyUrl: /2022/02/we-are-hiring-contract-developers-to.html
@@ -11,11 +11,11 @@ legacyUrl: /2022/02/we-are-hiring-contract-developers-to.html
 
 The Python Software Foundation has funding available for designing, developing and deploying organization accounts in PyPI.
 
-  
+
 
 PyPI is the official repository of Python packages. PyPI allows users to search for packages, publish and distribute packages.The aim of this project is to allow PyPI users to set up an organization account, invite other users to join, organize those users into teams, and manage ownership and permissions across multiple projects. We hope to provide organization accounts as a paid service to companies and complimentary access to community projects. The organization account feature will provide the structure based on which new features can be offered to paying customers.You can read [this post](https://pyfound.blogspot.com/2021/12/pypi-user-feedback-summary.html) that summarizes the user surveys.
 
-  
+
 
 We hope to hire two contractors who will code, test, review, document and deploy the organization account features. The two contractors include one backend developer and one frontend developer.
 
@@ -23,19 +23,19 @@ Timeline
 
 <table><colgroup><col width="147"><col width="336"></colgroup><tbody><tr><td><p dir="ltr"><span>Date</span></p></td><td><p dir="ltr">Milestone</p></td></tr><tr><td><p dir="ltr">Feb 16, 2022</p></td><td><p dir="ltr">RFP opens</p></td></tr><tr><td><p dir="ltr">Mar 4, 2022</p></td><td><p dir="ltr">RFP closes</p></td></tr><tr><td><p dir="ltr">Mar 11, 2022</p></td><td><p dir="ltr">Submitted proposals receive preliminary decision</p></td></tr><tr><td><p dir="ltr">Mar 18, 2022</p></td><td><p dir="ltr">Shortlisted proposals receive final decision</p></td></tr><tr><td><p dir="ltr">Mar 25, 2022</p></td><td><p dir="ltr">Contracts finalized</p></td></tr><tr><td><p dir="ltr">Apr 1, 2022</p></td><td><p dir="ltr">Start of contract work</p></td></tr></tbody></table>
 
-  
+
 
 Budget  
 
 For each role: Up to US $98,000 for approx. 560 hours depending on contractor rate
 
-  
+
 
 We expect both roles to start by early April. Both roles can be done remotely. Each working week consists of 35 hours. Each milestone is applicable to the backend and frontend developer roles.
 
 What is an RfP period?
 
-  
+
 
 A Request for Proposals (RfP) is a process intended to allow us (the Python Software Foundation) to collect proposals from potential contractors and select contractor(s) best suited to fulfill the specified work.
 
@@ -45,6 +45,6 @@ Note: This Request For Proposal document may be updated to reflect things that w
 
 How do I submit a proposal?
 
-  
+
 
 Please read the [RfP](https://github.com/psf/request-for/blob/main/2022-PyPI/RFP.md) to know how to submit a proposal, the evaluation criteria and the scope of the roles.

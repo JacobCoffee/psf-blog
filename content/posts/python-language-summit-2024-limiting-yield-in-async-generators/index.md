@@ -3,13 +3,13 @@ title: 'The Python Language Summit 2024: Limiting Yield in Async Generators'
 publishDate: '2024-06-14'
 updatedDate: '2024-06-14'
 author: Seth Michael Larson
-description: 'Zac Hatfield-Dodds came to the Language Summit to present on a fundamental incompatability between the popular async programming paradigm "structured concurr...'
+description: 'Zac Hatfield-Dodds came to the Language Summit to present on a fundamental incompatibility between the popular async programming paradigm "structured concurr...'
 tags: []
 published: true
 legacyUrl: /2024/06/python-language-summit-2024-limiting-yield-in-async-generators.html
 ---
 
-Zac Hatfield-Dodds came to the Language Summit to present on a fundamental incompatability between the popular async programming paradigm "[structured concurrency](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful)" and [asynchronous generators](https://peps.python.org/pep-0525/), specifically when it came to exception handling when the two were mixed together.
+Zac Hatfield-Dodds came to the Language Summit to present on a fundamental incompatibility between the popular async programming paradigm "[structured concurrency](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful)" and [asynchronous generators](https://peps.python.org/pep-0525/), specifically when it came to exception handling when the two were mixed together.
 
 ### Structured Concurrency  
 
@@ -25,7 +25,7 @@ Async programs that are structured with this paradigm can rely on exceptions beh
 
 The fundamental issue is that [yields](https://docs.python.org/3/reference/expressions.html#yield-expressions) suspend the current call frame, in effect "returning" a value, and then the generator needs to be "called" again for execution to be resumed. This suspension doesn't play well with structured concurrency because execution can't be suspended in the same call frame as a cancel scope, otherwise that scope can't process exceptions from its child tasks.
 
-  
+
 
 <table align="center" cellpadding="0" cellspacing="0"><tbody><tr><td><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWtaKiTPJWFEv1diOaZHdyHIGqG98xfoACzbLVRN_Yi7v-f789hOQDH_zEfdlGO19RGb1gCgcA__rtD46ocU7e6XrT4CjMdHSlWnosWERYTOUu5f8YJPi5mpGf0MgMMKUE0TsR7gdfmM_XBfWFQ78op7vRku1CcTkYygheYLPwEN0VNCs1iA/s4000/20240515_155647.jpg"><img src="./image-1.jpg" alt=""></a></td></tr><tr><td>Zac leading a "fun game of 'why is this code broken?'"<br>(Photo credit: Hugo van Kemenade)<br></td></tr></tbody></table>
 
@@ -51,7 +51,7 @@ async def iter\_with\_timeout(ait, max\_time):
     try:
         while True:
             with asyncio.timeout(max\_time):
-                tmp = await anext(ait)   
+                tmp = await anext(ait)  
             yield tmp  # Move yield outside the cancel scope!  
  except StopAsyncIteration:
         return

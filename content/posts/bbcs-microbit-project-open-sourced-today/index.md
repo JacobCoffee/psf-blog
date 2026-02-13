@@ -3,7 +3,7 @@ title: 'BBC’s micro:bit project open-sourced today!'
 publishDate: '2015-10-20'
 updatedDate: '2015-10-20'
 author: Unknown
-description: 'As you may recall, there have been a couple of previous posts to this blog about the BBC’s micro:bit project (also see PSF newsblog). The micro:bit is a smal...'
+description: 'As you may recall, there have been a couple of previous posts to this blog about the BBC’s micro:bit project (also see PSF newsblog). The micro:bit is a small...'
 tags:
   - BBC
   - development

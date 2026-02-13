@@ -20,7 +20,7 @@ legacyUrl: /2025/06/the-psfs-2024-annual-impact-report-is.html
 -   An overview of the work and accomplishments of our PyPI Safety & Security Engineer, Mike Fiedler
 
 -   A celebration and summary of [PyCon US 2024](https://us.pycon.org/2024/)
--   A highlight of our [20 amazing Fiscal Sponsorees](https://www.python.org/psf/fiscal-sponsorees/)
+-   A highlight of our [20 amazing Fiscal Sponsors](https://www.python.org/psf/fiscal-sponsorees/)
 -   [Sponsors](https://www.python.org/psf/sponsors/) who generously supported our work and the Python ecosystem
 -   An overview of PSF Financials, including a consolidated financial statement and grants data
 

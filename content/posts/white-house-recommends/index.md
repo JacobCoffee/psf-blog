@@ -3,7 +3,7 @@ title: White House recommends use of memory-safe languages like Python
 publishDate: '2024-02-29'
 updatedDate: '2024-02-29'
 author: Seth Michael Larson
-description: Earlier this week the White House published a report recommending the use of memory-safe programming languages to eliminate an entire class of vulnerabilitie...
+description: Earlier this week the White House published a report recommending the use of memory-safe programming languages to eliminate an entire class of vulnerability...
 tags: []
 published: true
 legacyUrl: /2024/02/white-house-recommends-.html

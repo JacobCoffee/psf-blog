@@ -3,7 +3,7 @@ title: 'Thomas Kluyver, Community Service Award 3rd Quarter 2017 Recipient'
 publishDate: '2017-10-12'
 updatedDate: '2018-05-08'
 author: Christy Heaton
-description: 'People love Python for its ease of use, breadth of modules, and vibrant community. These qualities are made possible by people like Thomas Kluyver who, durin...'
+description: 'People love Python for its ease of use, breadth of modules, and vibrant community. These qualities are made possible by people like Thomas Kluyver who, during...'
 tags:
   - community service awards
 published: true
@@ -34,7 +34,7 @@ Why Python?
 <table cellpadding="0" cellspacing="0"><tbody><tr><td><a href="https://lh6.googleusercontent.com/HJYMMtTFtoSvwHaPbReg_lCb5X2HSJDQZlNzphrnN-4t6JXkmrTIMLPaDLeu5Tt95H-XZx_2pzr2k70lCTEiPjJhz_7Np1XkUompPJFesrYO1SrsbKKEg4lxZSjxcORQUEC-QAUc" imageanchor="1"><img src="./image-1.png" alt=""></a></td></tr><tr><td><span id="docs-internal-guid-fc47fd45-0dd5-d6a5-2888-733ef4428316"><a href="http://blog.sotonsailrobot.org/articles/xsens-test/"><span>Working on the Black Python</span></a></span></td></tr></tbody></table>
 
 When asked why Python is his language of choice, Thomas explains, “It's a beginners language, but it's also a language that many experienced programmers are using to solve real problems. I also like the breadth of domains in which Python is used and the strong open source ethos in the community around Python.”  
-  
+
 As if Thomas has yet to prove the full breadth of Python’s domains, Thomas recently participated in the [World Robotic Sailing Competition](http://www.roboticsailing.org/). His team entered in their model sailboat, named the Black Python, which carries a Raspberry Pi to control the sails and the rudder. The Black Python took first place in the 'micro sailboat' class both this year and last. Read more about this project on their [blog](http://blog.sotonsailrobot.org/).  
 
 Despite these significant accomplishments, Thomas recognizes the support he has gotten over the years recalling, “I've benefited immensely from other people: from my father helping me to learn programming, to the IPython team welcoming me and bringing me into the scientific Python community, to the thousands of programmers whose open source code I've used.”

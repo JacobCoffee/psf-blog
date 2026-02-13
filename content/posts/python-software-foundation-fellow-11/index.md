@@ -27,7 +27,7 @@ The PSF is pleased to announced its first batch of PSF Fellows in 2021! Let us w
 
 [Twitter](https://twitter.com/lemonsaurus_rex), [Website](https://lemonsaur.us/ ), [LinkedIn](https://linkedin.com/in/lemonsaurus), [GitHub](https://github.com/lemonsaurus), [YouTube](https://www.youtube.com/channel/UCs9yhbwxkAGzPC4Tw7aMqwA)
 
-**Sebastiaan Zeeff**
+**Sebastian Zeeff**
 
 [Website](https://sebastiaanzeeff.nl ), [Twitter](https://twitter.com/SebastiaanZeeff), [LinkedIn](https://www.linkedin.com/in/sebastiaanzeeff/)
 

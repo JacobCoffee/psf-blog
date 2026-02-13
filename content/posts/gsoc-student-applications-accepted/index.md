@@ -19,7 +19,7 @@ The Python Software Foundation is pleased to announce that 36 applications from 
 
 Below is a list of the projects accepted for this summer. The links point to the application abstracts on the GSoC site, so click through for more details about a given project.
 
- 
+
 | Name | Project Title |
 | --- | --- |
 | Amaury Medeiros | [PySoy’s interactive widgets](http://www.google-melange.com/gsoc/project/google/gsoc2011/amaurymedeiros/18001) |
@@ -27,7 +27,7 @@ Below is a list of the projects accepted for this summer. The links point to the
 | Bart Baker | [statsmodels times series and state-space model estimation](http://www.google-melange.com/gsoc/project/google/gsoc2011/bartbkr/12001) |
 | Ben Edwards | [Implement Community Detection Algorithms in NetworkX](http://www.google-melange.com/gsoc/project/google/gsoc2011/bedwards/5001) |
 | Benedict Stein | [Mailman: # Complete the Django web u/i](http://www.google-melange.com/gsoc/project/google/gsoc2011/benste/11001) |
-| Boris FELD | [PYpi Test Infrastructure](http://www.google-melange.com/gsoc/project/google/gsoc2011/lothiraldan/9001) |
+| Boris FIELD | [PYpi Test Infrastructure](http://www.google-melange.com/gsoc/project/google/gsoc2011/lothiraldan/9001) |
 | Daniel Kluev | [Pyjamas - in-browser python interpreter](http://www.google-melange.com/gsoc/project/google/gsoc2011/dankluev/6001) |
 | Daniel Neuhäuser | [Developing a benchmark suite (for Python 3.x)](http://www.google-melange.com/gsoc/project/google/gsoc2011/dasich/5001) |
 | Danilo Freitas | [Turn Codespeed into a multi-project, statistically savvy application](http://www.google-melange.com/gsoc/project/google/gsoc2011/daniloaf/5001) |

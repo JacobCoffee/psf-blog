@@ -9,7 +9,7 @@ published: true
 legacyUrl: /2025/01/powering-python-together-in-2025-thanks.html
 ---
 
-We are so very grateful for each of you who donated or became new members during our end-of-year fundraiser and membership drive. We raised $30,000 through the [PyCharm](https://www.jetbrains.com/pycharm/) promotion offered by [JetBrains](https://www.jetbrains.com/)– WOW! Including individual donations, Supporting Memberships, donations to our Fiscal Sponsorees, and JetBrains’ generous partnership we raised around $99,000 for the PSF’s mission supporting Python and its community. Your generous support means we can dive into 2025 ready to invest in our key goals for the year. Some of our goals include:  
+We are so very grateful for each of you who donated or became new members during our end-of-year fundraiser and membership drive. We raised $30,000 through the [PyCharm](https://www.jetbrains.com/pycharm/) promotion offered by [JetBrains](https://www.jetbrains.com/)– WOW! Including individual donations, Supporting Memberships, donations to our Fiscal Sponsors, and JetBrains’ generous partnership we raised around $99,000 for the PSF’s mission supporting Python and its community. Your generous support means we can dive into 2025 ready to invest in our key goals for the year. Some of our goals include:  
 
 -   Embrace the opportunities and tackle the challenges that come with scale
 -   Foster long term sustainable growth- for Python, the PSF, and the community

@@ -14,7 +14,7 @@ The PSF is preparing its submission to participate in the Google Summer of Code 
 
 #### Google Summer of Code
 
-[Google Summer of Code](http://socghop.appspot.com/site/home/site) (GSoC) offers stipends to college students who write code for open source software projects. The program works by pairing students with mentors from participating projects to benefit both groups. Students are exposed to real-world software development practices, and the mentoring projects gain new contributors. More than 4,500 students and 4,000 mentors have participated in the program since its beginning in 2005. Contributions have come from over 85 countries around the world, making GSoC a truely global effort to improve the state of open source software.
+[Google Summer of Code](http://socghop.appspot.com/site/home/site) (GSoC) offers stipends to college students who write code for open source software projects. The program works by pairing students with mentors from participating projects to benefit both groups. Students are exposed to real-world software development practices, and the mentoring projects gain new contributors. More than 4,500 students and 4,000 mentors have participated in the program since its beginning in 2005. Contributions have come from over 85 countries around the world, making GSoC a truly global effort to improve the state of open source software.
 
 #### Requirements for Participating Projects
 
