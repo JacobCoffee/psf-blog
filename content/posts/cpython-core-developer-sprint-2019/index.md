@@ -42,12 +42,16 @@ As part of the core dev sprint, an event was organized with the help of Bloomber
 
   
 
+<iframe src="https://www.youtube.com/embed/NKmy_Cnt3pM?feature=player_embedded" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
+
 -   Work in AsyncMock - **Lisa Roach**
 -   Removing dead batteries in the standard library - **Christian Heimes**
 -   Sub-Interpreters support in the standard library - **Eric Snow and Joannah Nanjekye**
 -   Improving bugs.python.org - **Ezio Melotti**
 
   
+<iframe src="https://www.youtube.com/embed/QcfSYNCBNoA?feature=player_embedded" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
+
 There was also a moderated Q&A session about the core development sprint and, more generally, Python’s future direction. We hope that events like this will help communicate more transparently what the core developers do at the sprints and how much impact these events have on maintenance, processes, and the language itself.
 
 ### Mentorees

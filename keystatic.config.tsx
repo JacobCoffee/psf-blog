@@ -122,22 +122,22 @@ const referenceComponents = {
 
 export default config({
   storage:
-    process.env.NODE_ENV === "development"
+    process.env.NODE_ENV !== "production"
       ? { kind: "local" }
-      : {
-          kind: "github",
-          repo: { owner: "JacobCoffee", name: "psf-blog" },
-          branchPrefix: "keystatic/",
-        },
+      : { kind: "cloud" },
+  cloud: {
+    project: "jacobcoffee/psf-blog",
+  },
   collections: {
     authors: collection({
       label: "Authors",
       slugField: "name",
       path: "content/authors/*",
       format: "json",
-      columns: ["name", "featured"],
+      previewUrl: "/authors/{slug}",
+      columns: ["name", "postCount", "featured"],
       schema: {
-        name: fields.text({ label: "Name", validation: { isRequired: true } }),
+        name: fields.slug({ name: { label: "Name" } }),
         bio: fields.text({ label: "Bio", multiline: true }),
         github: fields.text({ label: "GitHub Username" }),
         avatar: fields.url({ label: "Avatar URL" }),
@@ -146,6 +146,7 @@ export default config({
         mastodon: fields.url({ label: "Mastodon" }),
         website: fields.url({ label: "Website" }),
         featured: fields.checkbox({ label: "Featured", defaultValue: false }),
+        postCount: fields.integer({ label: "Post Count", defaultValue: 0 }),
       },
     }),
     posts: collection({

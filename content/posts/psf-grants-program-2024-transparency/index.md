@@ -54,7 +54,9 @@ Again, the growth the PSF Grants Program has seen from 2022 to 2024 (and over th
 
   
 
-## The numbers (in graph form)  
+## The numbers (in graph form)
+
+<iframe src="https://drive.google.com/file/d/1wWbgt--o_w8EJFpMeqlrWBkoAoX6CTCr/preview" width="100%" height="420" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
 
 *Thanks to Tania Allard for helping improve the readability and accessibility of the graphs provided in this report.*
 

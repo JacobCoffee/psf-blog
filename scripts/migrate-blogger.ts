@@ -94,6 +94,19 @@ function createTurndown(): TurndownService {
     replacement: (_content) => "",
   });
 
+  // Preserve iframes (YouTube, Google Drive, Google Sheets, etc.)
+  td.addRule("preserveIframes", {
+    filter: "iframe",
+    replacement: (_content, node) => {
+      const el = node as HTMLElement;
+      const src = el.getAttribute("src") || "";
+      const width = el.getAttribute("width") || "560";
+      const height = el.getAttribute("height") || "315";
+      if (!src) return "";
+      return `\n\n<iframe src="${src}" width="${width}" height="${height}" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>\n\n`;
+    },
+  });
+
   // Handle <code> inside <pre> properly
   td.addRule("codeBlock", {
     filter: (node) => {
