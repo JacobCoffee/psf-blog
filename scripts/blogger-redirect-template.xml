@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  Blogger Redirect Template for pythoninsider.blogspot.com
+  =========================================================
+  This template replaces the entire Blogger theme to redirect
+  all visitors to the new site at:
+    https://jacobcoffee.github.io/python-insider-blog/
+
+  Installation:
+  1. Go to https://www.blogger.com/ and select the Python Insider blog
+  2. Go to Theme > Edit HTML (click the dropdown arrow next to "Customize")
+  3. Select ALL the existing template code and replace it with this file
+  4. Save the template
+
+  How it works:
+  - Homepage visitors → redirected to new site homepage
+  - Individual post URLs like /2024/09/python-3130rc2-3126-31110-31015-3920.html
+    → redirected to /python-insider-blog/blog/python-3130rc2-3126-31110-31015-3920
+  - Any unmatched URL → redirected to new site homepage
+  - Uses HTTP 301-equivalent meta refresh + JavaScript for immediate redirect
+  - Shows a fallback "We've moved" message for users with JS disabled
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Python Insider has moved!</title>
+  <meta name="robots" content="noindex, nofollow"/>
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <script type="text/javascript">
+    //<![CDATA[
+    (function() {
+      var NEW_SITE = "https://jacobcoffee.github.io/python-insider-blog";
+      var path = window.location.pathname;
+
+      // Individual post: /YYYY/MM/slug.html → /blog/slug
+      var postMatch = path.match(/^\/\d{4}\/\d{2}\/(.+)\.html$/);
+      if (postMatch) {
+        window.location.replace(NEW_SITE + "/blog/" + postMatch[1]);
+        return;
+      }
+
+      // Search/label pages → blog listing
+      if (path.indexOf("/search") === 0 || path.indexOf("/label") === 0) {
+        window.location.replace(NEW_SITE + "/blog");
+        return;
+      }
+
+      // Feeds → RSS
+      if (path.indexOf("/feeds") === 0) {
+        window.location.replace(NEW_SITE + "/rss.xml");
+        return;
+      }
+
+      // Everything else (homepage, archive pages) → new homepage
+      window.location.replace(NEW_SITE);
+    })();
+    //]]>
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://jacobcoffee.github.io/python-insider-blog/"/>
+  </noscript>
+  <style type="text/css">
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #0f1117;
+      color: #e4e4e7;
+    }
+    .container {
+      text-align: center;
+      max-width: 480px;
+      padding: 2rem;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 1.5rem;
+      opacity: 0.7;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: #fafafa;
+    }
+    p {
+      color: #a1a1aa;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    a {
+      display: inline-block;
+      background: #306998;
+      color: #fff;
+      padding: 0.625rem 1.5rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.875rem;
+      transition: background 0.2s;
+    }
+    a:hover { background: #254f73; }
+    .spinner {
+      width: 24px;
+      height: 24px;
+      border: 3px solid #27272a;
+      border-top-color: #ffd43b;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="spinner"></div>
+    <h1>Python Insider has moved!</h1>
+    <p>
+      We've migrated to a new home. You're being redirected automatically.
+      If nothing happens, click the link below.
+    </p>
+    <a href="https://jacobcoffee.github.io/python-insider-blog/">
+      Go to the new Python Insider &rarr;
+    </a>
+  </div>
+</body>
+</html>
