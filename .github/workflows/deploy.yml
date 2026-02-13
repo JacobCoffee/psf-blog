@@ -44,6 +44,8 @@ jobs:
 
       - name: Build
         run: bun run build
+        env:
+          BUILD_TARGET: static
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

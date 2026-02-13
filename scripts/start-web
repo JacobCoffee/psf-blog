@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+CABOTAGE_SOCK="/var/run/cabotage/cabotage.sock"
+INTERNAL_PORT=8080
+
+# Astro listens on internal TCP (not exposed)
+HOST=127.0.0.1 PORT="$INTERNAL_PORT" node dist/server/entry.mjs &
+NODE_PID=$!
+
+# Bridge Cabotage Unix socket → internal TCP
+socat UNIX-LISTEN:"$CABOTAGE_SOCK",fork,reuseaddr TCP:127.0.0.1:"$INTERNAL_PORT" &
+SOCAT_PID=$!
+
+cleanup() {
+  kill "$NODE_PID" "$SOCAT_PID" 2>/dev/null || true
+  wait
+}
+trap cleanup EXIT INT TERM
+
+wait "$NODE_PID"

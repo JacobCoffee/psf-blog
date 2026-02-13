@@ -27,6 +27,7 @@ const authors = defineCollection({
     mastodon: z.string().optional(),
     website: z.string().optional(),
     featured: z.boolean().default(false),
+    postCount: z.number().default(0),
   }),
 });
 
