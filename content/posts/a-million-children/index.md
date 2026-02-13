@@ -83,9 +83,13 @@ You're probably wondering what you can do with the device. A quick look around t
 
   
 
+<iframe src="https://www.youtube-nocookie.com/embed/khRb_HOsX6c?rel=0&controls=0&showinfo=0" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
+
 [Martin O'Hanlon](https://twitter.com/martinohanlon) is a regular contributor to the education track at PyCon UK. His lessons in programming Minecraft with Python are genius-level performances that end with a hundred kids and their parents furiously hacking Python so Minecraft does crazy things. It's inspiring to see such a thing unfold. As a result, we were especially looking forward to his contribution (and he didn't disappoint).
 
   
+
+<iframe src="https://www.youtube-nocookie.com/embed/59KqWVwj_Cc?rel=0&controls=0&showinfo=0" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
 
 Mart has managed to tick pretty much all the boxes for many 11 year olds with his X-Wing flying in Minecraft running on a Raspberry Pi controlled via MicroPython running on a BBC micro:bit. Perhaps the only thing missing is that it doesn't come with a side of pizza and fries:
 

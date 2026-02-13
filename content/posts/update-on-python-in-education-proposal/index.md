@@ -23,5 +23,6 @@ We ask that if you are considering submitting a proposal that it fall into one o
 
 ### Evaluation rubric
 
-  
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSwi7Ef_VjVrkZ32nrIZWGDLAPjyxAwTNbTyl8OdFM1bLci_TVycNaCa3hbTx23BjgHWYUVaIo1Ar9-/pubhtml?gid=0&single=true&widget=true&headers=false" width="100%" height="400" frameborder="0" style="max-width:100%;"></iframe>
+
 Every proposal we receive will be evaluated against this rubric. We are looking for proposals that adhere to the PSF's code of conduct, align with the PSF's mission, have international reach, are feasible, and pertain to underrepresented topics. If anyone has any questions, please contact us at edu-committee@python.org.

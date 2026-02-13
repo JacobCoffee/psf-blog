@@ -39,18 +39,19 @@ We held interesting annual D&I panels where we discussed important topics which 
 
 PyConUS 2022 D&I Panel Discussion
 
-Participating D&I Workgroup members: [Georgi Ker](https://georgiker.com/), [Reuven Lerner](https://lerner.co.il/), [Anthony Shaw](https://tonybaloney.github.io/), [Lorena Mesa](https://lorenamesa.com/)
+<iframe src="https://www.youtube.com/embed/WcbnJA2ah6U" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
 
-  
-  
+Participating D&I Workgroup members: [Georgi Ker](https://georgiker.com/), [Reuven Lerner](https://lerner.co.il/), [Anthony Shaw](https://tonybaloney.github.io/), [Lorena Mesa](https://lorenamesa.com/)
 
 #### PyConUS 2023 D&I Panel Discussion
 
+<iframe src="https://www.youtube.com/embed/RkvCK4fDSnQ" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
+
 Participating D&I Workgroup members: [Marlene Mhangami](https://marlenemhangami.com/), [Débora Azevedo](https://deboraazevedo.github.io/), [Iqbal Abdullah](https://iqbalabdullah.net/), [Georgi Ker](https://georgiker.com/)
 
-  
-
 PyConUS 2024 D&I Panel Discussion
+
+<iframe src="https://www.youtube.com/embed/WGJu1LggIms" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
 
 In 2024, we invited different Python community leaders: [Abigail Mesrenyame Dogbe](https://github.com/mesrenyamedogbe/), [Dima Dinama](https://dinama.id/),[Jules Juliano Barros Lima](https://bento.me/julesbrlm/), [Jessica Greene](https://github.com/sleepypioneer/), and [Mason Egger](https://github.com/sleepypioneer/), who shared about their work, their involvement, and their challenges as community leaders.
 
@@ -59,6 +60,8 @@ Participating D&I Workgroup members: [Débora Azevedo](https://deboraazevedo.git
   
 
 PyConUS 2025 D&I Panel Discussion
+
+<iframe src="https://www.youtube.com/embed/SQAX4P59u8w" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
 
 In 2025, due to political changes happening around the world, we invited [Cristián Maureira-Fredes](https://maureira.dev/), [Jay Miller](https://kjaymiller.com/), and [Naomi Ceder](https://www.naomiceder.tech/) to the D&I Workgroup panel to talk about “The Work Still Matters: Inclusion, Access, and Community in 2025.”
 

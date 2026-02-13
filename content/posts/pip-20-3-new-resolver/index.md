@@ -18,6 +18,8 @@ On behalf of the [Python Packaging Authority](https://www.pypa.io) and the pip t
 
 This is an important and disruptive release -- we [explained why in a blog post last year](https://pyfound.blogspot.com/2019/12/moss-czi-support-pip.html). We've even made [a video about it](https://www.youtube.com/watch?v=B4GQCBBsuNU).
 
+<iframe src="https://www.youtube-nocookie.com/embed/B4GQCBBsuNU" width="560" height="315" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>
+
 ## Highlights
 
 -   **DISRUPTION**: Switch to the new dependency resolver by default. Watch out for changes in handling editable installs, constraints files, and more: [https://pip.pypa.io/en/latest/user\_guide/#changes-to-the-pip-dependency-resolver-in-20-3-2020](https://pip.pypa.io/en/latest/user_guide/#changes-to-the-pip-dependency-resolver-in-20-3-2020)
