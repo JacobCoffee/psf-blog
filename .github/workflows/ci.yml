@@ -60,5 +60,3 @@ jobs:
 
       - name: Build
         run: bun run build
-        env:
-          BUILD_TARGET: static

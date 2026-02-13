@@ -1,0 +1,55 @@
+---
+import { instagramIcon, externalIcon } from "./_icons";
+
+interface Props {
+  url: string;
+}
+
+const { url } = Astro.props;
+
+// Instagram embed URL: append /embed to the post URL.
+// Input: https://www.instagram.com/p/ABC123/
+// Embed: https://www.instagram.com/p/ABC123/embed
+const cleanUrl = url.replace(/\/$/, "");
+const embedUrl = cleanUrl.endsWith("/embed") ? cleanUrl : `${cleanUrl}/embed`;
+---
+
+<figure class="not-prose my-6 flex justify-center">
+  <div class="w-full max-w-[550px]">
+    <div class="overflow-hidden rounded-xl border border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800/50">
+      {/* Platform header */}
+      <div class="flex items-center gap-2 border-b border-zinc-200 px-4 py-2.5 dark:border-zinc-700">
+        <span class="bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] bg-clip-text text-transparent" set:html={instagramIcon} />
+        <span class="text-sm font-medium text-zinc-600 dark:text-zinc-300">Instagram</span>
+      </div>
+
+      {/* Embed iframe */}
+      <div class="relative">
+        <iframe
+          src={embedUrl}
+          width="100%"
+          height="480"
+          allowfullscreen
+          loading="lazy"
+          title="Instagram post"
+          class="block w-full border-0"
+          style="overflow: hidden;"
+          sandbox="allow-scripts allow-same-origin allow-popups"
+        ></iframe>
+      </div>
+
+      {/* Fallback link */}
+      <div class="border-t border-zinc-200 px-4 py-2 dark:border-zinc-700">
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors hover:text-[#DD2A7B] dark:text-zinc-400 dark:hover:text-[#e865a0]"
+        >
+          View on Instagram
+          <span set:html={externalIcon} />
+        </a>
+      </div>
+    </div>
+  </div>
+</figure>

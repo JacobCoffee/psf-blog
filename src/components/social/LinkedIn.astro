@@ -1,0 +1,76 @@
+---
+import { linkedinIcon, externalIcon } from "./_icons";
+
+interface Props {
+  url: string;
+}
+
+const { url } = Astro.props;
+
+// Extract the embed URL from a LinkedIn post URL.
+// LinkedIn embed iframes use the same URL with /embed/ path segment.
+// Supported formats:
+//   https://www.linkedin.com/posts/username_activity-1234567890-xxxx
+//   https://www.linkedin.com/feed/update/urn:li:activity:1234567890
+//   https://www.linkedin.com/embed/feed/update/urn:li:share:1234567890
+function getEmbedUrl(postUrl: string): string {
+  // If already an embed URL, use as-is
+  if (postUrl.includes("/embed/")) return postUrl;
+
+  // /posts/ format -> extract the activity URN from the URL
+  const postsMatch = postUrl.match(/\/posts\/[^/]+-activity-(\d+)/);
+  if (postsMatch) {
+    return `https://www.linkedin.com/embed/feed/update/urn:li:activity:${postsMatch[1]}`;
+  }
+
+  // /feed/update/ format -> prefix with /embed
+  const feedMatch = postUrl.match(/(\/feed\/update\/urn:li:\w+:\d+)/);
+  if (feedMatch) {
+    return `https://www.linkedin.com/embed${feedMatch[1]}`;
+  }
+
+  // Fallback: try to use as embed directly
+  return postUrl;
+}
+
+const embedUrl = getEmbedUrl(url);
+---
+
+<figure class="not-prose my-6 flex justify-center">
+  <div class="w-full max-w-[550px]">
+    <div class="overflow-hidden rounded-xl border border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800/50">
+      {/* Platform header */}
+      <div class="flex items-center gap-2 border-b border-zinc-200 px-4 py-2.5 dark:border-zinc-700">
+        <span class="text-[#0A66C2]" set:html={linkedinIcon} />
+        <span class="text-sm font-medium text-zinc-600 dark:text-zinc-300">LinkedIn</span>
+      </div>
+
+      {/* Embed iframe */}
+      <div class="relative">
+        <iframe
+          src={embedUrl}
+          width="100%"
+          height="400"
+          allowfullscreen
+          loading="lazy"
+          title="LinkedIn post"
+          class="block w-full border-0"
+          style="overflow: hidden;"
+        ></iframe>
+      </div>
+
+      {/* Fallback link */}
+      <div class="border-t border-zinc-200 px-4 py-2 dark:border-zinc-700">
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors hover:text-[#0A66C2] dark:text-zinc-400 dark:hover:text-[#4d9ae0]"
+        >
+          View on LinkedIn
+          <span set:html={externalIcon} />
+        </a>
+      </div>
+    </div>
+  </div>
+</figure>

@@ -11,18 +11,22 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN bun run build
 
-# ── Stage 3: Production runtime ─────────────────
+# ── Stage 3: Production deps only ────────────────
+FROM oven/bun:1-slim AS prod-deps
+WORKDIR /app
+COPY package.json bun.lock ./
+RUN bun install --frozen-lockfile --production
+
+# ── Stage 4: Production runtime ─────────────────
 FROM node:22-slim
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends socat \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy built server + runtime deps
+# Only production node_modules (no devDeps)
+COPY --from=prod-deps /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/node_modules ./node_modules
-
-# Copy startup script
 COPY scripts/start-web ./scripts/start-web
 RUN chmod +x scripts/start-web
 

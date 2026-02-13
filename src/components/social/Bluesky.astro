@@ -1,0 +1,59 @@
+---
+import { blueskyIcon, externalIcon } from "./_icons";
+
+interface Props {
+  url: string;
+}
+
+const { url } = Astro.props;
+
+// Extract profile handle and post ID from a Bluesky URL.
+// Input: https://bsky.app/profile/user.bsky.social/post/abc123
+const bskyMatch = url.match(/bsky\.app\/profile\/([^/]+)\/post\/([^/?#]+)/);
+const handle = bskyMatch?.[1] ?? "";
+const postId = bskyMatch?.[2] ?? "";
+
+// Bluesky embed URL format
+const embedUrl = `https://embed.bsky.app/embed/${handle}/app.bsky.feed.post/${postId}`;
+---
+
+<figure class="not-prose my-6 flex justify-center">
+  <div class="w-full max-w-[550px]">
+    <div class="overflow-hidden rounded-xl border border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800/50">
+      {/* Platform header */}
+      <div class="flex items-center gap-2 border-b border-zinc-200 px-4 py-2.5 dark:border-zinc-700">
+        <span class="text-[#0085FF]" set:html={blueskyIcon} />
+        <span class="text-sm font-medium text-zinc-600 dark:text-zinc-300">Bluesky</span>
+        {handle && <span class="text-xs text-zinc-400 dark:text-zinc-500">@{handle}</span>}
+      </div>
+
+      {/* Embed iframe */}
+      <div class="relative">
+        <iframe
+          src={embedUrl}
+          width="100%"
+          height="320"
+          allowfullscreen
+          loading="lazy"
+          title={`Post by @${handle || "user"} on Bluesky`}
+          class="block w-full border-0"
+          style="overflow: hidden;"
+          sandbox="allow-scripts allow-same-origin allow-popups"
+        ></iframe>
+      </div>
+
+      {/* Fallback link */}
+      <div class="border-t border-zinc-200 px-4 py-2 dark:border-zinc-700">
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors hover:text-[#0085FF] dark:text-zinc-400 dark:hover:text-[#4da6ff]"
+        >
+          View on Bluesky
+          <span set:html={externalIcon} />
+        </a>
+      </div>
+    </div>
+  </div>
+</figure>
