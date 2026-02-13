@@ -16,6 +16,8 @@ extend-ignore-re = [
   "https?://[^\\s)\"'>]+",
   # HTML entities
   "&[a-z]+;",
+  # Truncated description fields (word cut off before ...)
+  "\\w+\\.\\.\\.['\"]*",
 ]
 
 [default.extend-words]
@@ -59,3 +61,15 @@ Ines = "Ines"
 adminstration = "adminstration"
 Receipient = "Receipient"
 truely = "truely"
+sponsoree = "sponsoree"
+sponsorees = "sponsorees"
+Sponsoree = "Sponsoree"
+Sponsorees = "Sponsorees"
+ove = "ove"
+Chuks = "Chuks"
+Accoring = "Accoring"
+advices = "advices"
+descrimination = "descrimination"
+occassions = "occassions"
+Calle = "Calle"
+Leornardo = "Leornardo"
