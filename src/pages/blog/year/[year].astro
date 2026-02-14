@@ -49,7 +49,7 @@ interface Props {
 const { year, posts, allYears, topTags, totalTags } = Astro.props;
 ---
 
-<BaseLayout title={`${year} Posts | PSF Blog`}>
+<BaseLayout title={`${year} Posts | PSF Blog`} editPath="src/pages/blog/year/[year].astro">
   <div class="animate-fade-up">
     <a
       href={withBase("/blog")}

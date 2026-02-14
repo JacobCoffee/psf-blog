@@ -9,9 +9,10 @@ interface Props {
   description?: string;
   image?: string;
   fullWidth?: boolean;
+  editPath?: string;
 }
 
-const { title, description, image, fullWidth = false } = Astro.props;
+const { title, description, image, fullWidth = false, editPath } = Astro.props;
 ---
 
 <!doctype html>
@@ -27,7 +28,7 @@ const { title, description, image, fullWidth = false } = Astro.props;
     ]}>
       <slot />
     </main>
-    <Footer />
+    <Footer editPath={editPath} />
     <button
       id="shortcut-hint"
       class="shortcut-hint-btn"
