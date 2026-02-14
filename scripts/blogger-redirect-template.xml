@@ -4,7 +4,7 @@
   =========================================================
   This template replaces the entire Blogger theme to redirect
   all visitors to the new site at:
-    https://jacobcoffee.github.io/python-insider-blog/
+    https://blog.pyfound.org/
 
   Installation:
   1. Go to https://www.blogger.com/ and select the Python Insider blog
@@ -15,7 +15,7 @@
   How it works:
   - Homepage visitors → redirected to new site homepage
   - Individual post URLs like /2024/09/python-3130rc2-3126-31110-31015-3920.html
-    → redirected to /python-insider-blog/blog/python-3130rc2-3126-31110-31015-3920
+    → redirected to /blog/python-3130rc2-3126-31110-31015-3920
   - Any unmatched URL → redirected to new site homepage
   - Uses HTTP 301-equivalent meta refresh + JavaScript for immediate redirect
   - Shows a fallback "We've moved" message for users with JS disabled
@@ -30,7 +30,7 @@
   <script type="text/javascript">
     //<![CDATA[
     (function() {
-      var NEW_SITE = "https://jacobcoffee.github.io/python-insider-blog";
+      var NEW_SITE = "https://blog.pyfound.org";
       var path = window.location.pathname;
 
       // Individual post: /YYYY/MM/slug.html → /blog/slug
@@ -58,7 +58,7 @@
     //]]>
   </script>
   <noscript>
-    <meta http-equiv="refresh" content="0; url=https://jacobcoffee.github.io/python-insider-blog/"/>
+    <meta http-equiv="refresh" content="0; url=https://blog.pyfound.org/"/>
   </noscript>
   <style type="text/css">
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -125,8 +125,8 @@
       We've migrated to a new home. You're being redirected automatically.
       If nothing happens, click the link below.
     </p>
-    <a href="https://jacobcoffee.github.io/python-insider-blog/">
-      Go to the new Python Insider &rarr;
+    <a href="https://blog.pyfound.org/">
+      Go to the new PSF Blog &rarr;
     </a>
   </div>
 </body>

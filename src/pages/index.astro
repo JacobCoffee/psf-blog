@@ -17,7 +17,7 @@ const totalPosts = posts.length;
 const authors = new Set(posts.map((p) => p.data.author));
 ---
 
-<BaseLayout title="PSF Blog" fullWidth>
+<BaseLayout title="PSF Blog" fullWidth editPath="src/pages/index.astro">
   <!-- Compact editorial strip -->
   <div class="border-b border-zinc-200 dark:border-zinc-800">
     <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-2.5">
@@ -28,8 +28,6 @@ const authors = new Set(posts.map((p) => p.data.author));
         <span><strong class="font-semibold text-zinc-600 dark:text-zinc-300">{totalPosts}</strong> posts</span>
         <span class="text-zinc-300 dark:text-zinc-700">/</span>
         <span><strong class="font-semibold text-zinc-600 dark:text-zinc-300">{authors.size}</strong> authors</span>
-        <span class="text-zinc-300 dark:text-zinc-700">/</span>
-        <span>since <strong class="font-semibold text-zinc-600 dark:text-zinc-300">2011</strong></span>
         <a
           href={withBase("/rss.xml")}
           class="ml-1 inline-flex items-center gap-1 rounded-md bg-orange-50 px-2 py-0.5 font-medium text-orange-600 transition-colors hover:bg-orange-100 dark:bg-orange-900/20 dark:text-orange-400 dark:hover:bg-orange-900/30"

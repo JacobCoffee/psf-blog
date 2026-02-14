@@ -33,7 +33,7 @@ interface Props { tag: string; posts: CollectionEntry<"posts">[] }
 const { tag, posts } = Astro.props;
 ---
 
-<BaseLayout title={`Posts tagged "${tag}" | PSF Blog`}>
+<BaseLayout title={`Posts tagged "${tag}" | PSF Blog`} editPath="src/pages/tags/[tag].astro">
   <div class="animate-fade-up">
     <a
       href={withBase("/tags")}

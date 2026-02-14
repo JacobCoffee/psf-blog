@@ -45,7 +45,7 @@ const { slug, author, posts } = Astro.props;
 const avatarUrl = author.avatar || (author.github ? `https://github.com/${author.github}.png` : "");
 ---
 
-<BaseLayout title={`${author.name} | PSF Blog`}>
+<BaseLayout title={`${author.name} | PSF Blog`} editPath={`content/authors/${slug}.json`}>
   <div class="animate-fade-up">
     <a
       href={withBase("/authors")}

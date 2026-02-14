@@ -4,6 +4,14 @@ import { withBase } from "../lib/utils";
 const isDev = import.meta.env.DEV;
 const year = new Date().getFullYear();
 const linkClass = "text-sm text-zinc-600 transition-colors hover:text-[#1a5632] dark:text-zinc-300 dark:hover:text-[#4ade80]";
+
+interface Props {
+  editPath?: string;
+}
+
+const REPO_URL = "https://github.com/psf/blog";
+const { editPath } = Astro.props;
+const editUrl = editPath ? `${REPO_URL}/edit/main/${editPath}` : null;
 ---
 
 <footer class="border-t border-zinc-200 bg-white dark:border-zinc-800 dark:bg-[#0d1912]">
@@ -94,13 +102,40 @@ const linkClass = "text-sm text-zinc-600 transition-colors hover:text-[#1a5632] 
       </div>
     </div>
 
-    <div class="mt-10 flex items-center justify-between border-t border-zinc-200 pt-6 dark:border-zinc-800">
+    {editUrl && (
+      <div class="mt-10 border-t border-zinc-200 pt-5 dark:border-zinc-800">
+        <a
+          href={editUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 text-xs font-medium text-zinc-400 transition-colors hover:text-zinc-600 dark:text-zinc-500 dark:hover:text-zinc-300"
+        >
+          <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+          </svg>
+          Edit this page on GitHub
+        </a>
+      </div>
+    )}
+
+    <div class:list={["flex items-center justify-between border-t border-zinc-200 pt-6 dark:border-zinc-800", editUrl ? "mt-5" : "mt-10"]}>
       <p class="text-xs text-zinc-400 dark:text-zinc-500">
         &copy; {year} Python Software Foundation
       </p>
-      <p class="text-xs text-zinc-400 dark:text-zinc-500">
-        <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="noopener noreferrer" class="underline decoration-zinc-300 underline-offset-2 hover:text-zinc-600 dark:decoration-zinc-600 dark:hover:text-zinc-300">CC BY-NC-SA 3.0</a>
-      </p>
+      <div class="flex items-center gap-4">
+        <a
+          href={REPO_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 text-xs text-zinc-400 transition-colors hover:text-zinc-600 dark:text-zinc-500 dark:hover:text-zinc-300"
+        >
+          <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          Source
+        </a>
+        <p class="text-xs text-zinc-400 dark:text-zinc-500">
+          <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="noopener noreferrer" class="underline decoration-zinc-300 underline-offset-2 hover:text-zinc-600 dark:decoration-zinc-600 dark:hover:text-zinc-300">CC BY-NC-SA 3.0</a>
+        </p>
+      </div>
     </div>
   </div>
 </footer>

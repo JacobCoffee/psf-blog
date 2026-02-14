@@ -18,7 +18,7 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
 const maxCount = sortedTags[0]?.[1] ?? 1;
 ---
 
-<BaseLayout title="Tags | PSF Blog">
+<BaseLayout title="Tags | PSF Blog" editPath="src/pages/tags/index.astro">
   <div class="animate-fade-up">
     <h1
       class="text-3xl font-bold text-zinc-900 dark:text-zinc-100"
