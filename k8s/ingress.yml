@@ -1,0 +1,41 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: psf-blog-app-web
+  namespace: psf
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
+    nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/service-upstream: "true"
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: 10s
+    nginx.ingress.kubernetes.io/proxy-read-timeout: 10s
+    nginx.ingress.kubernetes.io/proxy-send-timeout: 10s
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: blog.ingress.us-east-2.psfhosted.computer
+    http:
+      paths:
+      - backend:
+          service:
+            name: blog-app-web
+            port:
+              number: 8000
+        path: /
+        pathType: Prefix
+  - host: blog.us-east-2.psfhosted.computer
+    http:
+      paths:
+      - backend:
+          service:
+            name: blog-app-web
+            port:
+              number: 8000
+        path: /
+        pathType: Prefix
+  tls:
+  - hosts:
+    - blog.ingress.us-east-2.psfhosted.computer
+    - blog.us-east-2.psfhosted.computer
+    secretName: ingress-blog-tls
